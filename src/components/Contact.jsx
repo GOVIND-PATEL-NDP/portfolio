@@ -110,12 +110,12 @@ const Contact = () => {
           </button>
         </form>
       </motion.div>
-      {/* <motion.div
+      <motion.div
         variants={slideIn('right', 'tween', 0.1, 1)}
         className='xl:flex-1 xl:h-auto md:h-[400px] h-[300px]'
       >
         <EarthCanvas />
-      </motion.div> */}
+      </motion.div>
     </div>
   );
 };
